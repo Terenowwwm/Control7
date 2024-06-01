@@ -1,0 +1,38 @@
+.block{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.orderDetails{
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.orderDetailsH2{
+    display: block;
+    background: greenyellow;
+    padding: 1em;
+    margin-top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.additems{
+    width: 64%;
+    margin-left: 15px;
+}
+.blockFood{
+    border: 1px solid green;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 75px;
+    margin-bottom: 5px;
+
+}
+.image{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
